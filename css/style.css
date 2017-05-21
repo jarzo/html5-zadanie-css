@@ -56,19 +56,47 @@ header#header h1#main-header-text
 	text-transform: uppercase;
 }
 
-section#about{
+section#about
+{
 	margin: 30px 0;
 	padding: 0 50px;
 	
 }
 
-section#about h2#about-header{
+section#about h2#about-header
+{
 	font-size: 30px;
 	text-align: center;
 	margin-bottom: 20px;
 	
 }
 
-section#about p.about-content {
+section#about p.about-content 
+{
 	text-align: center;
+}
+
+footer#contact
+{
+	padding: 30px 50px;
+	background-color: #222;
+}
+
+footer#contact h2#contact-header
+{
+	font-size: 30px;
+	color: #fff;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+footer#contact address#contact-content
+{
+	text-align: center;
+	color: #fff;
+}
+
+footer#contact a
+{
+	color: #fff;
 }
